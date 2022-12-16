@@ -24,4 +24,11 @@ function listar() {
     }
 }
 
+function listar_por_genero(genero) {
+    for(let i = 0; i < genero.length; i++) {
+        console.log(genero[i]);
+    }
+}
+
 listar();
+listar_por_genero();
